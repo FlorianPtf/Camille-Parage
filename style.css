@@ -566,7 +566,7 @@ header .navbar ul li:hover a:after{
     z-index: 1000;
 }
 
-.square .content h4{
+.square .content h1{
     color: var(--couleur1);
     font-size: 38px;
 }
@@ -2940,13 +2940,12 @@ table{
         height: 300px;
     }
 
-    .square span:nth-child(4)
-{
+    .square span:nth-child(4){
     background-image: url("img/optic_9.webp");
     background-position: right 30px bottom 0px;
-}
+    }
 
-    .square .content h4,
+    .square .content h1,
     .square2 .content h4,
     .square3 .content h4{
         font-size: 24px;
@@ -2996,6 +2995,17 @@ table{
         display: none;
     }
 
+    #slide1,
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5{
+        width: 0%;
+        height: 0;
+        display: none;
+        opacity: 0;
+    }
+
     .slidermobile{
         display: flex;
         min-height: 100%;
@@ -3015,6 +3025,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel1.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-position: 10% 50%;
         background-repeat: no-repeat;
@@ -3028,6 +3039,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel2.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3041,6 +3053,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3054,6 +3067,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3066,6 +3080,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3246,7 +3261,7 @@ table{
         height: 320px;
     }
 
-    .square .content h4,
+    .square .content h1,
     .square2 .content h4,
     .square3 .content h4{
         font-size: 36px;
@@ -3281,6 +3296,17 @@ table{
         display: none;
     }
 
+    #slide1,
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5{
+        width: 0%;
+        height: 0;
+        display: none;
+        opacity: 0;
+    }
+
     .slidermobile{
         display: flex;
         min-height: 100%;
@@ -3300,6 +3326,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel1.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3313,6 +3340,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel2.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3326,6 +3354,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3339,6 +3368,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3351,6 +3381,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3506,6 +3537,18 @@ table{
         display: none;
     }
 
+    #slide1,
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5{
+        width: 0%;
+        height: 0;
+        display: none;
+        opacity: 0;
+    }
+
+
     .slidermobile{
         display: flex;
         min-height: 100%;
@@ -3525,6 +3568,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel1.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3538,6 +3582,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel2.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3551,6 +3596,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3564,6 +3610,7 @@ table{
         border: 2px solid var(--couleur2);
         border-radius: 50px;
         background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
