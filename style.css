@@ -251,6 +251,10 @@ header{
     box-shadow: 0 5px 60px rgba(0,0,0,0.5);
 }
 
+header .logo{
+    font-size: 0px;
+}
+
 header .logo img{
     display: inline-block;
     position: relative;
@@ -1022,7 +1026,7 @@ header .navbar ul li:hover a:after{
     /* overflow: hidden; */
     background-size: cover;
     background-position: 30% 40%;
-    background-image: linear-gradient(0deg, rgba(211, 228, 205, 0), rgba(211, 228, 205, 0)), url("img/bg_ortho3.jpg");
+    background-image: linear-gradient(0deg, rgba(211, 228, 205, 0), rgba(211, 228, 205, 0)), url("img/bg_ortho3.webp");
     border-bottom: 20px solid;
     border-top: 20px solid;
     border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;   
@@ -1189,7 +1193,7 @@ header .navbar ul li:hover a:after{
     min-height: 100vh;
     background-size: cover;
     background-position: fixed;
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("img/bg_ortho5.jpg");
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("img/bg_ortho5.webp");
     border-bottom: 10px solid;
     border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;   
 }
@@ -1339,7 +1343,7 @@ header .navbar ul li:hover a:after{
     min-height: 100vh;
     background-size: cover;
     background-position: 20% 60%;
-    background-image: linear-gradient(0deg, rgba(211, 228, 205, 0.2), rgba(211, 228, 205, 0.2)), url("img/bg_refraction.jpg");
+    background-image: linear-gradient(0deg, rgba(211, 228, 205, 0.2), rgba(211, 228, 205, 0.2)), url("img/bg_refraction.webp");
     /* opacity: 0.9; */
     border-bottom: 20px solid;
     border-top: 10px solid;
@@ -1491,7 +1495,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg3{
-    background-image: url("img/Oeil7.png");
+    background-image: url("img/Oeil7.webp");
     min-height: 20vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1519,7 +1523,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg5{
-    background-image: url("img/bilanrefraction3.jpeg");
+    background-image: url("img/bilanrefraction3.webp");
     min-height: 20vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1533,7 +1537,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg6{
-    background-image: url("img/bilanrefraction3.jpeg");
+    background-image: url("img/bilanrefraction3.webp");
     min-height: 20vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1547,7 +1551,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg7{
-    background-image: url("img/Oeil2.jpg");
+    background-image: url("img/Oeil2.webp");
     min-height: 30vh;
     background-position: 0% 68%;
     background-repeat: no-repeat;
@@ -1561,7 +1565,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg8{
-    background-image: url("img/optic_9.jpg");
+    background-image: url("img/optic_9.webp");
     min-height: 20vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -1574,7 +1578,7 @@ header .navbar ul li:hover a:after{
     background-attachment: scroll; */
 }
 .pimg9{
-    background-image: url("img/Oeil8.png");
+    background-image: url("img/Oeil8.webp");
     min-height: 20vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -1587,7 +1591,7 @@ header .navbar ul li:hover a:after{
     background-attachment: scroll; */
 }
 .pimg10{
-    background-image: url("img/Oeil9.png");
+    background-image: url("img/Oeil9.webp");
     min-height: 20vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -1600,7 +1604,7 @@ header .navbar ul li:hover a:after{
     background-attachment: scroll; */
 }
 .pimg11{
-    background-image: url("img/optic_11.jpg");
+    background-image: url("img/optic_11.webp");
     min-height: 20vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -1613,7 +1617,7 @@ header .navbar ul li:hover a:after{
     background-attachment: scroll; */
 }
 .pimg12{
-    background-image: url("img/optic_12.jpg");
+    background-image: url("img/optic_12.webp");
     min-height: 20vh;
     background-position: 20% 50%;
     background-repeat: no-repeat;
@@ -1626,7 +1630,7 @@ header .navbar ul li:hover a:after{
     background-attachment: scroll; */
 }
 .pimg13{
-    background-image: url("img/Oeil3.jpg");
+    background-image: url("img/Oeil3.webp");
     min-height: 30vh;
     background-position: 0% 135%;
     background-repeat: no-repeat;
@@ -1668,7 +1672,7 @@ header .navbar ul li:hover a:after{
 }
 
 .pimg16{
-    background-image: url("img/Oeil6.jpg");
+    background-image: url("img/Oeil6.webp");
     min-height: 30vh;
     background-position: 0% 35%;
     background-repeat: no-repeat;
@@ -1740,7 +1744,7 @@ header .navbar ul li:hover a:after{
     border-top: 20px solid;
     border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;   
     user-select: none;
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.jpg");
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.webp");
 }
 
 
@@ -2042,7 +2046,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/bilanorthoptique1.jpeg");
+    background: url("img/bilanorthoptique1.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2054,7 +2058,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/bilanorthoptique2.jpeg");
+    background: url("img/bilanorthoptique2.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2109,7 +2113,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/bilanneuro1.jpeg");
+    background: url("img/bilanneuro1.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2121,7 +2125,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/bilanneuro2.jpeg");
+    background: url("img/bilanneuro2.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2179,7 +2183,7 @@ header .navbar ul li:hover a:after{
     height: 550px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/bilanbassevision.jpeg");
+    background: url("img/bilanbassevision.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2233,7 +2237,7 @@ header .navbar ul li:hover a:after{
     height: 550px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/refraction.jpeg");
+    background: url("img/refraction.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2296,7 +2300,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducation.jpeg");
+    background: url("img/reeducation.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2352,7 +2356,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationidc2.jpeg");
+    background: url("img/reeducationidc2.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2403,7 +2407,7 @@ header .navbar ul li:hover a:after{
     height: 550px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationstrabisme.jpeg");
+    background: url("img/reeducationstrabisme.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2453,7 +2457,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationamblyopie1.jpeg");
+    background: url("img/reeducationamblyopie1.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;    
@@ -2465,7 +2469,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationamblyopie2.jpeg");
+    background: url("img/reeducationamblyopie2.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;    
@@ -2521,7 +2525,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationneurovisuel.jpeg");
+    background: url("img/reeducationneurovisuel.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2533,7 +2537,7 @@ header .navbar ul li:hover a:after{
     height: 500px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationneurovisuel2.jpeg");
+    background: url("img/reeducationneurovisuel2.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2587,7 +2591,7 @@ header .navbar ul li:hover a:after{
     height: 550px;
     border-radius: 50px;
     overflow: hidden;
-    background: url("img/reeducationbassevision.jpeg");
+    background: url("img/reeducationbassevision.webp");
     background-size: cover;
     background-position: center;
     margin-top: 5%;
@@ -2782,7 +2786,7 @@ table{
 
 .containerortho12{
     min-height: 50vh;
-    background-image: url("img/optic_10.jpg");
+    background-image: url("img/optic_10.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 80%;
@@ -2938,7 +2942,7 @@ table{
 
     .square span:nth-child(4)
 {
-    background-image: url("img/optic_9.jpg");
+    background-image: url("img/optic_9.webp");
     background-position: right 30px bottom 0px;
 }
 
@@ -2999,7 +3003,7 @@ table{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.jpg");
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.webp");
         border-top: 20px solid;
         border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;
     }
@@ -3010,7 +3014,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel1.jpeg");
+        background: url("img/Caroussel1.webp");
         background-size: cover;
         background-position: 10% 50%;
         background-repeat: no-repeat;
@@ -3023,7 +3027,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel2.jpeg");
+        background: url("img/Caroussel2.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3036,7 +3040,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel3.jpeg");
+        background: url("img/Caroussel3.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3049,7 +3053,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_4.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3061,7 +3065,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_9.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3284,7 +3288,7 @@ table{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.jpg");
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.webp");
         border-top: 20px solid;
         border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;
     }
@@ -3295,7 +3299,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel1.jpeg");
+        background: url("img/Caroussel1.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3308,7 +3312,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel2.jpeg");
+        background: url("img/Caroussel2.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3321,7 +3325,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel3.jpeg");
+        background: url("img/Caroussel3.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3334,7 +3338,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_4.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3346,7 +3350,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_9.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3509,7 +3513,7 @@ table{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.jpg");
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.webp");
         border-top: 20px solid;
         border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;
     }
@@ -3520,7 +3524,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel1.jpeg");
+        background: url("img/Caroussel1.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3533,7 +3537,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel2.jpeg");
+        background: url("img/Caroussel2.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3546,7 +3550,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/Caroussel3.jpeg");
+        background: url("img/Caroussel3.webp");
         background-position: 10% 50%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3559,7 +3563,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_4.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -3571,7 +3575,7 @@ table{
         margin: 5%;
         border: 2px solid var(--couleur2);
         border-radius: 50px;
-        background: url("img/optic_9.jpg");
+        background: url("img/Caroussel3.webp");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
