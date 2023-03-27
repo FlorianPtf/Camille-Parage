@@ -1,28 +1,30 @@
-var counter = 1;
-var slider = document.querySelector(".slider2");
+// ******************************************    SLIDER     **************************************
 
-var autoslide;
+// var counter = 1;
+// var slider = document.querySelector(".slider2");
 
-var repeatslide = () => {
-autoslide = setInterval(function(){
-    document.getElementById('s' + counter).checked = true; 
-    counter++;
+// var autoslide;
+
+// var repeatslide = () => {
+// autoslide = setInterval(function(){
+//     document.getElementById('s' + counter).checked = true; 
+//     counter++;
    
-    if(counter > 5){
-        counter = 1;
+//     if(counter > 5){
+//         counter = 1;
         
-    }
-}, 2000); }
+//     }
+// }, 2000); }
 
-repeatslide();
+// repeatslide();
 
-slider.addEventListener("mouseover", () => {
-    clearInterval(autoslide);
-})
+// slider.addEventListener("mouseover", () => {
+//     clearInterval(autoslide);
+// })
 
-slider.addEventListener("mouseout", () => {
-    repeatslide();
-})
+// slider.addEventListener("mouseout", () => {
+//     repeatslide();
+// })
 
 
 document.querySelectorAll("a[href^='#']").forEach(function(link) {
