@@ -1,0 +1,80 @@
+/***********************************************************************************************************************************
+************************************************   768PX - 1024PX PETIT PC   *******************************************************
+***********************************************************************************************************************************/
+
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+    header{
+        min-height: 20vh;
+    }
+
+    header .navbar ul li {
+        margin: 30px;
+    }
+
+    .imgbgecriture{
+        width: 300%;
+        top: 0%;
+        left: -50%;
+    }
+
+    .gridone{
+        margin-bottom: 5%;
+    }
+
+    .gridtwo{
+        margin-bottom: 5%;
+    }
+    .gridthree{
+        margin-bottom: 10%;
+    }
+
+    .slider{
+        min-height: 80vh;
+        margin-bottom: 5%;
+    }
+
+    .box-container5{
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .box-card5, .box-frame5{
+        margin: 2%;
+    }
+
+    .containerortho11 .containercontent11,
+    .containerortho12 .containercontent12 {
+        width: 80vw;
+    }
+
+    .containerortho1,
+    .containerortho2,
+    .containerortho3,
+    .containerortho4,
+    .containerortho5,
+    .containerortho6,
+    .containerortho7,
+    .containerortho8,
+    .containerortho9,
+    .containerortho10,
+    .containerortho14{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .containerorthodroite1,
+    .containerorthogauche2,
+    .containerorthodroite3,
+    .containerorthogauche4,
+    .containerorthodroite5,
+    .containerorthogauche6,
+    .containerorthodroite7,
+    .containerorthogauche8,
+    .containerorthodroite9,
+    .containerorthogauche10,
+    .containerorthodroite14{
+        margin-left: 5%;
+    }
+}

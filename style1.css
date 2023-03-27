@@ -1,0 +1,326 @@
+/***********************************************************************************************************************************
+*************************************************   300PX - 425PX MOBILE   *********************************************************
+***********************************************************************************************************************************/
+
+@media all and (min-width: 300px) and (max-width: 424px){
+
+    header{
+        min-height: 20vh;
+    }
+
+    .navlinks.mobile-menu li{
+        margin: 20px;
+    }
+
+    .navlinks.mobile-menu a{
+        font-size: 24px;
+    }
+
+    .imgbgecriture{
+        width: 400%;
+        top: 0%;
+        left: -90%;
+    }
+
+    .gridone{
+        margin-bottom: 5%;
+    }
+
+    .gridtwo{
+        margin-bottom: 5%;
+    }
+    .gridthree{
+        margin-bottom: 10%;
+    }
+
+    .square, .square2, .square3{
+        width: 300px;
+        height: 300px;
+    }
+
+    .square span:nth-child(4){
+    background-image: url("img/optic_9.webp");
+    background-position: right 30px bottom 0px;
+    }
+
+    .square .content h1,
+    .square2 .content h2,
+    .square3 .content h2{
+        font-size: 24px;
+        color: var(--couleur2);
+    }
+
+    .square .content p,
+    .square2 .content p,
+    .square3 .content p{
+        font-size: 14px;
+    }
+
+    .box-container3com{
+        background-position: 40% 40%;
+    }
+
+    .box-container3com p{
+        font-size: 36px;
+    }
+
+    .box-container4 .container-card4{
+        width: 300px;
+        height: 480px;
+    }
+
+    .box-container4com p{
+        font-size: 36px;
+    }
+
+    .box-container4 .container-card4 .container-box4 .container-content4 p{
+        font-size: 18px;
+        font-weight: 500;
+        opacity: 1;
+    }
+
+    .box-container4 .container-card4 #optic1,
+    .box-container4 .container-card4 #optic2,
+    .box-container4 .container-card4 #optic3,
+    .box-container4 .container-card4 #optic4,
+    .box-container4 .container-card4 #optic5{
+        opacity: 0.95;
+    }
+
+    .slider{
+        min-height: 80vh;
+        margin-bottom: 5%;
+        display: none;
+    }
+
+    #slide1,
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5{
+        width: 0%;
+        height: 0;
+        display: none;
+        opacity: 0;
+    }
+
+    .slidermobile{
+        display: flex;
+        min-height: 100%;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0) 100%), url("img/bg_ortho6.webp");
+        border-top: 20px solid;
+        border-image: linear-gradient(90deg, var(--couleur3) 0% , var(--couleur4) 100%) 1;
+    }
+
+    .cardslider1{
+        width: 280px;
+        height: 240px;
+        margin: 5%;
+        border: 2px solid var(--couleur2);
+        border-radius: 50px;
+        background: url("img/Caroussel1.webp");
+        aspect-ratio: 1/5;
+        background-size: cover;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .cardslider2{
+        width: 280px;
+        height: 240px;
+        margin: 5%;
+        border: 2px solid var(--couleur2);
+        border-radius: 50px;
+        background: url("img/Caroussel2.webp");
+        aspect-ratio: 1/5;
+        background-position: 10% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .cardslider3{
+        width: 280px;
+        height: 240px;
+        margin: 5%;
+        border: 2px solid var(--couleur2);
+        border-radius: 50px;
+        background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
+        background-position: 10% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .cardslider4{
+        width: 280px;
+        height: 240px;
+        margin: 5%;
+        border: 2px solid var(--couleur2);
+        border-radius: 50px;
+        background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .cardslider5{
+        width: 280px;
+        height: 240px;
+        margin: 5%;
+        border: 2px solid var(--couleur2);
+        border-radius: 50px;
+        background: url("img/Caroussel3.webp");
+        aspect-ratio: 1/5;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .box-container5com h2{
+        font-size: 50px;
+    }
+
+    .box-container5{    
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .box-card5, .box-frame5{
+        margin: 5%;
+    }
+
+    .box-card5{
+        width: 250px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #iframe{
+        width: 250px;
+        height: 350px;
+    }
+
+    .box-content5 iframe{
+        width: 250px;
+        height: 350px;    
+    }
+
+    .box-content5 a, .box-content5 li{
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-container5com #about1{
+        font-size: 20px;
+    }
+
+    .box-container6com p{
+        font-size: 36px;
+    }
+
+    .containerortho11 .containercontent11,
+    .containerortho12 .containercontent12 {
+        width: 80vw;
+        text-align: left;
+    }
+
+    .pimg2 .pimgtext,
+    .pimg7 .pimgtext,
+    .pimg13 .pimgtext,
+    .pimg16 .pimgtext {
+        font-size: 30px;
+    }
+
+    .pimg13{
+        background-position: 0% 0%;
+    }
+
+    .pimg1,
+    .pimg2,
+    .pimg3,
+    .pimg4,
+    .pimg5,
+    .pimg6,
+    .pimg7,
+    .pimg8,
+    .pimg9,
+    .pimg10,
+    .pimg11,
+    .pimg12,
+    .pimg13,
+    .pimg14,
+    .pimg15,
+    .pimg16{
+        background-attachment: scroll;
+    }
+
+    .containerortho1,
+    .containerortho2,
+    .containerortho3,
+    .containerortho4,
+    .containerortho5,
+    .containerortho6,
+    .containerortho7,
+    .containerortho8,
+    .containerortho9,
+    .containerortho10,
+    .containerortho14{
+        flex-direction: column;
+    }
+
+    .containerorthodroite1,
+    .containerorthogauche2,
+    .containerorthodroite3,
+    .containerorthogauche4,
+    .containerorthodroite5,
+    .containerorthogauche6,
+    .containerorthodroite7,
+    .containerorthogauche8,
+    .containerorthodroite9,
+    .containerorthogauche10,
+    .containerorthodroite14{
+        margin-left: 5%;
+    }
+
+    .imgorthogauche1,
+    .imgorthodroite2,
+    .imgorthogauche3,
+    .imgorthodroite4,
+    .imgorthogauche5,
+    .imgorthodroite6,
+    .imgorthogauche7,
+    .imgorthodroite8,
+    .imgorthogauche9,
+    .imgorthodroite10,
+    .imgorthodroite10b,
+    .imgorthogauche14{
+        width: 300px;
+        height: 450px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        border: none;
+    } 
+
+    .scrolltotop{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
