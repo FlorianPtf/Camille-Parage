@@ -26,7 +26,6 @@
 //     repeatslide();
 // })
 
-
 document.querySelectorAll("a[href^='#']").forEach(function(link) {
     link.addEventListener("click", function(event) {
       event.preventDefault();
@@ -43,8 +42,6 @@ const link1 = document.querySelector(".link1");
 const link2 = document.querySelector(".link2");
 const link3 = document.querySelector(".link3");
 const link4 = document.querySelector(".link4");
-
-
 
 menuHamburger.addEventListener('click', ()=>{
     navLinks.classList.toggle('mobile-menu');

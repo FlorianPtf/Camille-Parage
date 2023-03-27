@@ -2692,7 +2692,10 @@ header .navbar ul li:hover a:after{
 .containerorthogauche8 li,
 .containerorthodroite9 li,
 .containerorthogauche10 li,
-.containerorthodroite14 li{
+.containerorthodroite14 li,
+.containerortho11 li,
+.containerortho12 li,
+.containerortho13 li{
     list-style: none;
 }
 
