@@ -2990,7 +2990,7 @@ table{
 *************************************************   300PX - 425PX MOBILE   *********************************************************
 ***********************************************************************************************************************************/
 
-/* @media all and (min-width: 300px) and (max-width: 424px){
+@media all and (min-width: 300px) and (max-width: 424px){
 
     header{
         min-height: 20vh;
@@ -3250,7 +3250,8 @@ table{
     .pimg13,
     .pimg14,
     .pimg15,
-    .pimg16{
+    .pimg16,
+    .pimg17{
         background-attachment: scroll;
     }
 
@@ -3264,6 +3265,7 @@ table{
     .containerortho8,
     .containerortho9,
     .containerortho10,
+    .containerortho13,
     .containerortho14{
         flex-direction: column;
     }
@@ -3278,8 +3280,13 @@ table{
     .containerorthogauche8,
     .containerorthodroite9,
     .containerorthogauche10,
+    .containerortho13,
     .containerorthodroite14{
         margin-left: 5%;
+    }
+
+    .containercontent13{
+        width: 90vw !important;
     }
 
     .imgorthogauche1,
@@ -3312,7 +3319,7 @@ table{
         font-size: 20px;
     }
 
-} */
+}
 
 
 /***********************************************************************************************************************************
@@ -3320,7 +3327,7 @@ table{
 ***********************************************************************************************************************************/
 
 
-/* @media all and (min-width: 425px) and (max-width: 599px){
+@media all and (min-width: 425px) and (max-width: 599px){
     header{
         min-height: 20vh;
     }
@@ -3519,7 +3526,7 @@ table{
     .pimg7 .pimgtext,
     .pimg13 .pimgtext,
     .pimg16 .pimgtext {
-        font-size: 48px;
+        font-size: 44px;
     }
 
     .pimg13{
@@ -3541,7 +3548,8 @@ table{
     .pimg13,
     .pimg14,
     .pimg15,
-    .pimg16{
+    .pimg16,
+    .pimg17{
         background-attachment: scroll;
     }
 
@@ -3555,6 +3563,7 @@ table{
     .containerortho8,
     .containerortho9,
     .containerortho10,
+    .containerortho13,
     .containerortho14{
         flex-direction: column;
     }
@@ -3569,8 +3578,13 @@ table{
     .containerorthogauche8,
     .containerorthodroite9,
     .containerorthogauche10,
+    .containerortho13,
     .containerorthodroite14{
         margin-left: 5%;
+    }
+
+    .containercontent13{
+        width: 90vw !important;
     }
 
     table {
@@ -3586,14 +3600,14 @@ table{
         line-height: 40px;
         font-size: 20px;
     }
-} */
+}
 
 
 /***********************************************************************************************************************************
 ************************************************   600PX - 768PX  TABLETTE   *******************************************************
 ***********************************************************************************************************************************/
 
-/* @media all and (min-width: 600px) and (max-width: 767px){
+@media all and (min-width: 600px) and (max-width: 767px){
 
     header{
         min-height: 20vh;
@@ -3754,6 +3768,7 @@ table{
     .containerortho8,
     .containerortho9,
     .containerortho10,
+    .containerortho13,
     .containerortho14{
         flex-direction: column;
     }
@@ -3768,10 +3783,15 @@ table{
     .containerorthogauche8,
     .containerorthodroite9,
     .containerorthogauche10,
+    .containerortho13,
     .containerorthodroite14{
         margin-left: 5%;
     }
-} */
+
+    .containercontent13{
+        width: 90vw !important;
+    }
+}
 
 
 /***********************************************************************************************************************************
@@ -3779,7 +3799,7 @@ table{
 ***********************************************************************************************************************************/
 
 
-/* @media all and (min-width: 768px) and (max-width: 1023px){
+@media all and (min-width: 768px) and (max-width: 1023px){
 
     header{
         min-height: 20vh;
@@ -3853,7 +3873,7 @@ table{
     .containerorthodroite14{
         margin-left: 5%;
     }
-} */
+}
 
 
 /***********************************************************************************************************************************
